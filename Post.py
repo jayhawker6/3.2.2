@@ -18,7 +18,7 @@ class Post:
     
     #What is this method returning?
     def __str__(self):
-        return self.user_name + " " + self.timestamp.__str__() + ": " + self.message
+        return self.user_name + ", " + self.timestamp.__str__() + ": " + self.message
     
     #What does this method do?
     def set_message(self, message):
